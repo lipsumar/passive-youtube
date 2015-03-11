@@ -1,0 +1,116 @@
+
+body{
+	padding-top:40px;
+}
+
+.vSpace{
+	margin-bottom:20px;
+}
+.vSpace-small{
+	margin-bottom: 10px;
+}
+.vSpace-mini{
+	margin-bottom: 5px
+}
+
+.align-center{
+	text-align:center;
+}
+
+
+
+
+.pageHeader{
+	padding:5px 0;
+	position: relative;
+	border-bottom:1px solid #CCC;
+	overflow: hidden;
+	margin-bottom:10px;
+}
+.pageHeader > .left{float:left;}
+.pageHeader > .right{float:right;}
+.pageHeader > .title{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 9px;
+	font-size:16px;
+	pointer-events:none;
+}
+
+.btn-plus{
+	height:30px;
+}
+.btn-plus > span{
+	font-size:22px;
+	display: block;
+	margin-top:-4px;
+}
+
+
+
+table.grid{
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	width:600px;
+	margin:0 auto;
+}
+table.grid td{
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	padding-top:3%;
+}
+table.grid td.checked{
+	background: #333;
+}
+table.grid .play{
+	background: #4A82F3;
+}
+
+@media (max-width: 800px) {
+	table.grid{
+		width:100%;
+	}
+}
+
+
+
+
+.levelList{
+	list-style:none;
+	margin:0;
+}
+.levelList > li{
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+	position: relative;
+}
+
+.levelList > li .icon-cloud{
+	position: absolute;
+	right: -2px;
+	color: #60C060;
+	bottom: 0;
+}
+
+.levelList > li canvas{
+	border:1px solid #333;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+	body{padding-top:5px;}
+	.row.break-1000{
+		margin-left:0;
+	}
+	.row.break-1000 > div[class^="span"]{
+		float:none;
+		display: block;
+		margin-left:0;
+		width:100%;
+	}
+}

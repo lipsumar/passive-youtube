@@ -1,0 +1,23 @@
+{
+  "name": "Passive-youtube",
+  "version": "0.0.0",
+  "authors": [
+    "Emmanuel Pire <piremmanuel@gmail.com>"
+  ],
+  "directory": "./public/js/bower_components",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "requirejs": "~2.1.10",
+    "backbone-amd": "~1.1.0",
+    "underscore": "~1.6.0"
+  }
+}
