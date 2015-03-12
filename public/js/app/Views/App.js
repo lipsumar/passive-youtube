@@ -191,7 +191,7 @@ define([
 
 			if(nextVideo.id === this.currentVideo.id){
 				console.warn('we dont have a next video !');
-				if(tryCount>70){
+				if(tryCount>20){
 					window.location.reload();
 					return;
 				}
