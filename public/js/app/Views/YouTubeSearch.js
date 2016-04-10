@@ -26,7 +26,7 @@ define(['jquery','backbone','app/Views/QueryGenerator'], function($, Backbone, Q
 			request.execute(function(resp){
 				that.requesting = false;
 
-				if(resp.result.items){
+				if(resp.result.items && resp.result.items[0]){
 					// found !
 					var videoId = resp.result.items[0].id.videoId;
 					console.log('found video', videoId);
